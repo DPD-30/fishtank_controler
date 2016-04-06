@@ -1,0 +1,6 @@
+
+{
+  "collectCoverage": true,
+  "testPathIgnorePatterns": ["/node_modules/",".c9"],
+  "modulePathIgnorePatterns": ["/.c9/"]
+}

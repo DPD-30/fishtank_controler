@@ -1,0 +1,9 @@
+rule dailyWaterChange {
+    when { 
+        wc : Object  wc.date <= daysAgo(1) and wc.status ==='complete';
+         
+    }
+    then {
+       emit("doWaterChange");
+    }
+}
