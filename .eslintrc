@@ -1,0 +1,42 @@
+"extends": ['airbnb-base/rules/best-practices',
+    'airbnb-base/rules/errors',
+    'airbnb-base/rules/node',
+    'airbnb-base/rules/variables',
+    'airbnb-base/rules/es6',
+    'airbnb-base/rules/imports']  
+
+"plugins": [
+        "promise",
+        "fp"
+    ]
+    
+"parserOptions": {
+        "ecmaVersion":  2017
+    }
+    
+"rules": {
+        "promise/always-return": 2,
+        "promise/no-return-wrap": 2,
+        "promise/param-names": 2,
+        "promise/catch-or-return": 2,
+        "promise/no-native": 0,
+        "fp/no-arguments": "error",
+      "fp/no-class": "error",
+      "fp/no-delete": "error",
+      "fp/no-events": "error",
+      "fp/no-get-set": "error",
+      "fp/no-let": "error",
+      "fp/no-loops": "error",
+      "fp/no-mutating-assign": "error",
+      "fp/no-mutating-methods": "error",
+      "fp/no-mutation": ["error", {"commonjs": true}],
+      "fp/no-nil": "error",
+      "fp/no-proxy": "error",
+      "fp/no-rest-parameters": "error",
+      "fp/no-this": "error",
+      "fp/no-throw": "error",
+      "fp/no-unused-expression": "off",
+      "no-unused-expressions": "error",
+      "fp/no-valueof-field": "error",
+      "no-var": "error"
+    }

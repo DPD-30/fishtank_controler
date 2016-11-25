@@ -1,5 +1,6 @@
 'use strict';
 /*global jest,expect*/
+jest.enableAutomock() 
 jest.unmock('nools');
 
 var nools = require("nools");

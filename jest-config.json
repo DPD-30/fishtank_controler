@@ -1,6 +1,8 @@
 
 {
+  
   "collectCoverage": true,
-  "testPathIgnorePatterns": ["/node_modules/",".c9"],
-  "modulePathIgnorePatterns": ["/.c9/"]
+  "testPathIgnorePatterns": ["/node_modules/","/.c9/"],
+  "modulePathIgnorePatterns": ["/.c9/"],
+  "collectCoverageFrom": ["**/*.{js,jsx}", "!**/node_modules/**", "!**/.c9/**","!**/coverage/**"]
 }

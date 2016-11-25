@@ -1,4 +1,5 @@
-var bunyan = require("bunyan"); // Bunyan dependency
-var logger = bunyan.createLogger({name: "tank"});
+const bunyan = require('bunyan');
+
+const logger = bunyan.createLogger({ name: 'tank' });
 
 module.exports = logger;
